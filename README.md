@@ -98,20 +98,3 @@ A Streamlit web application allows users to:
 The app makes advanced analytics accessible to non-technical stakeholders.
 
 ---
-
-## 🗂 Project Structure
-
-```txt
-churn_app/
-├── app.py
-├── train_and_save.py
-├── requirements.txt
-├── README.md
-├── artifacts/
-│   ├── xgb_model.pkl
-│   ├── scaler.pkl
-│   └── model_columns.pkl
-└── images/
-    ├── shap_summary.png
-    ├── shap_waterfall.png
-    └── streamlit_app.png
