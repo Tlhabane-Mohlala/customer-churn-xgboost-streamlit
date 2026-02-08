@@ -1,10 +1,10 @@
 # Customer Churn Prediction with XGBoost, SHAP & Streamlit
 
-🚀 **End-to-end data science project** focused on predicting customer churn and explaining *why* customers leave using explainable AI, with a production-ready Streamlit application.
+ **End-to-end data science project** focused on predicting customer churn and explaining *why* customers leave using explainable AI, with a production-ready Streamlit application.
 
 ---
 
-## 📌 Business Context
+##  Business Context
 
 Customer churn has a direct impact on revenue and long-term growth.  
 Organizations need not only accurate churn predictions, but also **clear explanations** to support retention strategies and executive decision-making.
@@ -16,7 +16,7 @@ This project delivers:
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 - Predict customer churn using machine learning  
 - Handle class imbalance effectively  
@@ -26,7 +26,7 @@ This project delivers:
 
 ---
 
-## 🧠 Methodology
+##  Methodology
 
 ### Data Preparation
 - Feature selection and cleaning
@@ -47,19 +47,19 @@ This project delivers:
 
 ---
 
-## 📊 Model Performance (Churn = 1)
+##  Model Performance (Churn = 1)
 
 | Model              | Accuracy | ROC-AUC | PR-AUC | Recall | F1 |
 |--------------------|----------|---------|--------|--------|----|
 | XGBoost Baseline   | 0.86     | 0.853   | 0.676  | 0.51   | 0.59 |
 | XGBoost + SMOTE    | 0.85     | 0.849   | 0.670  | 0.55   | 0.59 |
 
-📌 **Insight:**  
+ **Insight:**  
 SMOTE improves churn recall, enabling the model to capture more at-risk customers with a minimal trade-off in accuracy.
 
 ---
 
-## 🔍 Explainability with SHAP (Why Customers Churn)
+## Explainability with SHAP (Why Customers Churn)
 
 Most churn models are difficult to interpret.  
 This project uses **SHAP (SHapley Additive exPlanations)** to ensure full transparency.
@@ -86,7 +86,7 @@ This level of explainability is critical for:
 
 ---
 
-## 🖥️ Streamlit Application
+## Streamlit Application
 
 A Streamlit web application allows users to:
 
